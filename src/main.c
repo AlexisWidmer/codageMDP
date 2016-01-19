@@ -6,9 +6,9 @@ int main()
 {
     char choix[5];
     do {
-        printf("Choix du menu:\n\t1°) Coder une phrase\n\t2°) Décoder une phrase");
-        printf("\n\nQue voulez vous faire: ");
-        lire(choix, 5);
+        printf("Menu choice:\n\t1°) Coding a message\n\t2°) Decoding a message");
+        printf("\n\nWhat do you want: ");
+        lire(choix, 4);
         if (choix[0] == '1') {
             codage();
         }
@@ -16,7 +16,7 @@ int main()
             decodage();
         }
         else {
-            printf("%s n'est pas dans les choix possibles; Veuillez recommencer\n\n", choix);
+            printf("%s Is not a possible choice; Try again please\n\n", choix);
         }
     } while(choix[0] != '1' && choix[0] != '2');
 

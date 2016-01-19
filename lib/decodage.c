@@ -14,13 +14,13 @@ void decodage()
     char cle[64]; //Initialisation d'un tableau de 64 caractères "cle"
     int nombreLettres = 0, nombreCle = 0, lettreDecodeeNum = 0, i = 0, j = 0; //Initialisation de "nombreLettres", "nombreCle", "lettreDecodeeNum", "i" et "j"
 
-    printf("Tout le programme se passe en majuscule, veuillez donc rester en \"CAPSLOCK\"."); //Indications
+    printf("You can put MAJ or min words as you want, but the output is with MAJ."); //Indications
 
-    printf("\n\nEntrez votre clé : "); //Demande la clé pour coder la phrase
+    printf("\n\nEnter your key word: "); //Demande la clé pour coder la phrase
     lire(cle, 64); //Prends la saisie et la met dans "cle"
     nombreCle = strlen(cle); //Taille de la clé saisie
 
-    printf("Entrez le message codé (TOUJOURS en majuscule) : "); //Demande la phrase à décoder
+    printf("Enter the full message: "); //Demande la phrase à décoder
     lire(phraseCodee, 255); //Saisie de la phrase a coder dans "phraseCodee"
     nombreLettres = strlen(phraseCodee); //Taille de la phrase
 
@@ -52,6 +52,6 @@ void decodage()
     }
     while (j < nombreLettres); //Tant que le nombre de lettre traitée n'a pas atteind le nombre de lettre de la "phraseEntiere"
 
-    printf("\n\nVotre phrase était codée comme étant: %s.", phraseCodee); //Affiche "phraseCodee" en entière
-    printf("\n\nDécodée, la phrase donne: %s", phraseDecodee); //Affiche "phraseDecodee" en entière
+    printf("\n\nYour crytped message was: %s.", phraseCodee); //Affiche "phraseCodee" en entière
+    printf("\n\nNow, you can read it as: %s", phraseDecodee); //Affiche "phraseDecodee" en entière
 }

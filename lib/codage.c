@@ -14,13 +14,13 @@ void codage()
     char cle[64]; //Initialisation d'un tableau de 64 caractères "cle"
     int nombreLettres = 0, nombreCle = 0, i = 0, j = 0; //Initialisation de "nombreLettres", "nombreCle", "i" et "j"
 
-    printf("Tout le programme se passe en majuscule, veuillez donc rester en \"CAPSLOCK\"."); //Indications
+    printf("You can put MAJ or min words as you want, but the output is with MAJ."); //Indications
 
-    printf("\n\nEntrez votre clé: "); //Demande la clé pour coder la phrase
+    printf("\n\nEnter your key word: "); //Demande la clé pour coder la phrase
     lire(cle, 64); //Prends la saisie et la met dans "cle"
     nombreCle = strlen(cle); //Taille de la clé saisie
 
-    printf("Entrez le message (TOUJOURS en majuscule): "); //Demande la phrase à coder
+    printf("Enter the full message: "); //Demande la phrase à coder
     lire(phraseEntiere, 255); //Saisie de la phrase a coder dans "phraseEntiere"
     nombreLettres = strlen(phraseEntiere); //Taille de la phrase
 
@@ -52,7 +52,7 @@ void codage()
     }
     while (j < nombreLettres); //Tant que le nombre de lettre traitée n'a pas atteind le nombre de lettre de la "phraseEntiere"
 
-    printf("\n\nVotre phrase une fois codée donne: %s", phraseCodee); //Affiche "phraseCodee" en entière
+    printf("\n\nYour crypted message is: %s", phraseCodee); //Affiche "phraseCodee" en entière
 }
 
 

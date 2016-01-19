@@ -13,7 +13,7 @@ If you want, a static one is usable in "build/" directory, named "mdp.static".
 Indications are in english but the commentaries are in french. I'm going to see if I can translate it.
 
 
-Thanks for using my app and please, don't forget to put my nickname "Lesys" on files if you are sharing this.
+I am thanksfull to you for using my app and please, don't forget to put my nickname "Lesys" on files if you are sharing this.
 
 Forgive me for this english, I'm not used to write help in english but I'm increasing this !
 At the next time!

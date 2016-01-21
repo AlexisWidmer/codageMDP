@@ -1,4 +1,5 @@
 This program is for crypting messages with a key word. For my own, I'm using it for all my passwords, making them crypted with my key word and an other word picked up. I just need to remember my random picked up word to know what is my password.
+Don't put a number in the message or key word. I may upgrade the project to be able to convert a number as I'm doing with a char.
 
 
 The program is already maked. To clear files created by make in the directory, use the command "make clean" in the top of the directory.

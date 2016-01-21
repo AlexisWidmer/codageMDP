@@ -4,7 +4,7 @@
 #include "../include/fonctions.h"
 
 //Fonction pour effacer les buffer overflow
-//PAR OPENCLASSROOMS
+//BY OPENCLASSROOMS
 void viderBuffer()
 {
     int c = 0;

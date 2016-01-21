@@ -1,3 +1,5 @@
+//Code by Lesys
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "../include/fonctions.h"

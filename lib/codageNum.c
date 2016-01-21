@@ -1,3 +1,5 @@
+//Code by Lesys
+
 #include "../include/fonctions.h"
 
 //Fonction pour coder une lettre en numéro

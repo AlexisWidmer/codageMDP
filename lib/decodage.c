@@ -1,3 +1,5 @@
+//Code by Lesys
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -14,7 +16,7 @@ void decodage()
     char cle[64]; //Initialisation d'un tableau de 64 caractères "cle"
     int nombreLettres = 0, nombreCle = 0, lettreDecodeeNum = 0, i = 0, j = 0; //Initialisation de "nombreLettres", "nombreCle", "lettreDecodeeNum", "i" et "j"
 
-    printf("You can put MAJ or min words as you want, but the output is with MAJ."); //Indications
+    printf("You can put MAJ or min words as you want, but the output is with MAJ.\nBe carefull to not enter a number!"); //Indications
 
     printf("\n\nEnter your key word: "); //Demande la clé pour coder la phrase
     lire(cle, 64); //Prends la saisie et la met dans "cle"

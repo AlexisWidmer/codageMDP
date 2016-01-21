@@ -4,7 +4,7 @@
 #include "../include/fonctions.h"
 
 //Fonction permettant de lire les saisies utilisateur sans buffer overflow et lisant les espaces
-//PAR OPENCLASSROOMS
+//BY OPENCLASSROOMS
 int lire(char *chaine, int longueur)
 {
     char *positionEntree = NULL; //Définition d'un pointeur de char

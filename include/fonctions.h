@@ -1,7 +1,10 @@
-//Fonction pour coder
+//Code by Lesys
+
+
+//Fonction pour coder un message
 void codage();
 
-//Fonction pour décoder
+//Fonction pour décoder un message déjà codé
 void decodage();
 
 //Fonction pour coder une lettre en numéro
@@ -11,9 +14,9 @@ int codageNum(char);
 char codageLettre(int);
 
 //Fonction pour effacer les buffer overflow
-//PAR OPENCLASSROOMS
+//BY OPENCLASSROOMS
 void viderBuffer();
 
 //Fonction permettant de lire les saisies utilisateur sans buffer overflow et lisant les espaces
-//PAR OPENCLASSROOMS
+//BY OPENCLASSROOMS
 int lire(char *, int);

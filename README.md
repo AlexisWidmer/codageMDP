@@ -1,5 +1,4 @@
-This program is for crypting messages with a key word. For my own, I'm using it for all my passwords, making them crypted with my key word and an other word picked up. I just need to remember my random picked up word to know what is my password.
-Don't put a number in the message or key word. I may upgrade the project to be able to convert a number as I'm doing with a char.
+This program is for crypting and uncrypting messages with a key word. For my own, I'm using it for all my passwords, making them crypted with my key word and an other word picked up. I just need to remember my random picked up word to know what is my password.
 
 
 The program is already maked. To clear files created by make in the directory, use the command "make clean" in the top of the directory.
@@ -17,4 +16,12 @@ Indications are in english but the commentaries are in french. I'm going to see 
 I am thanksfull to you for using my app and please, don't forget to put my nickname "Lesys" on files if you are sharing this.
 
 Forgive me for this english, I'm not used to write help in english but I'm increasing this !
-At the next time!
+See you soon!
+
+*** NEW ***
+You can use numbers in the password, also as the dot '.' or the space.
+***********
+
+*** NEW ***
+You can now crypt and uncrypt sentences with all ASCII characters.
+***********
